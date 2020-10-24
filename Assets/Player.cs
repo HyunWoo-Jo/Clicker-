@@ -6,4 +6,8 @@
     public void ClickAct() { // 클릭시 골드를 추가한다
         gold.SetGold(increaseGold.GetGold() + gold.GetGold());
     }
-}
+
+    public void Start() {
+        increaseGold.SetGold(2); // Text Code inceadse Gold 를 임시로 증가시킴
+    }
+}   
