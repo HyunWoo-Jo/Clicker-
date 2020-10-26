@@ -53,12 +53,15 @@
     <UnityVersion>2020.1.10f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Assets\RenewText.cs" />
     <Compile Include="Assets\SingletonObject.cs" />
     <Compile Include="Assets\Gold.cs" />
-    <Compile Include="Assets\Upgrade.cs" />
     <Compile Include="Assets\Player.cs" />
     <Compile Include="Assets\ClickTrigger.cs" />
-    <Compile Include="Assets\RenewText.cs" />
+    <Compile Include="Assets\GoldUpgrade.cs" />
+    <Compile Include="Assets\IUpgradeAble.cs" />
+    <Compile Include="Assets\IncreaseClickGold.cs" />
+    <Compile Include="Assets\AutoRenew.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
